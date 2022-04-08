@@ -1,10 +1,1 @@
 # Web-Responsive
-# Web-Responsive
-# Web-Responsive
-# Web-Responsive
-# Web-Responsive
-# Web-Responsive
-# Web-Responsive
-# Web-Responsive
-# Web-Responsive
-# Web-Responsive
