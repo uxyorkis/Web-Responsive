@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 body { 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -98,6 +100,13 @@ header a :hover {
     color: white;
 }
 
+#hero button {
+    font: 1.75em;
+}
+
+background-position: center center;
+background-size: cover;
+
 #Somos-Proya {
 
 }
@@ -108,32 +117,28 @@ header a :hover {
 }
 
 #nuestros-programas{
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(30,30,30);
     color: white;
     text-align: center;
 }
 
-#nuestros-programas .container {
-    padding: 150px 0px;
+#nuestros-programas .container{
+    padding: 150px 12px;
+}
+
+#nuestros-programas h2{
+    margin-top: 0;
+    font-size: 3.2em;
 }
 
 #nuestros-programas p{
     display: none;
 }
 
-#nuestros-programas h2 {
-    margin-top: 0;
-    font-size: 3.2em;
-}
-
-#nuestros-programas p {
-    display: none;
-}
-
-#nuestros-programas .cartas {
+#nuestros-programas .carta{
     background-position: center center;
     background-size: cover;
-    padding: 50px 50px;
+    padding: 50px 0px;
     margin: 30px;
     border-radius: 15px;
 }
@@ -167,3 +172,47 @@ header a :hover {
 
 }
 
+#caracteristicas .container {
+    text-align: center;
+    padding: 250px 12px;
+}
+
+#caracteristicas li {
+margin: 16px 0px;
+font-weight: bold;
+}
+
+#final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 80vh;
+}
+
+#final h2 {
+    font-size: 9vw;
+}
+
+#final button {
+    font-size: 5vw;
+}
+
+footer {
+    background-color: rgb(230, 230, 230) ;
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
+
+footer .container {
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
