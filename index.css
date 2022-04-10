@@ -317,7 +317,49 @@ footer .container{
             rgba(0,0,0,0.5)
         )
         ,url("media/python-cropped.jpg");
-    
     }
 
+    #caracteristicas{
+        background-image: url("media/background-2.jpeg");
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: calc(100vw - 500px) 120px;
+    }
+
+    #caracteristicas .container {
+        text-align: initial;
+    }
+
+    #caracteristicas ul {
+         margin-left: 100px;
+    }
+
+    #final {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/hero.jpg");
+    }
+    }
+
+    #final h2 {
+        font-size: 5em;
+    }
+
+    #final button {
+        font-size: 2em;
+    }
+
+    fotter .container {
+        justify-content: flex-end;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    #caracteristicas {
+        background-position: calc(100vw - 800px);
+    }
 }
