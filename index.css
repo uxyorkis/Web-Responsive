@@ -89,7 +89,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/hero.jpg");
+    ,url("media/hero.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -109,7 +109,7 @@ header a:hover{
 }
 
 #nuestros-programas{
-    background-color: rgb(30,30,30);
+    background-color: #FFB1A3;
     color: white;
     text-align: center;
 }
@@ -141,7 +141,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.jpg");
+    ,url("media/front-end.jpeg");
 
 }
 
@@ -151,7 +151,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/full-stack.jpg");
+    ,url("media/full-stack.jpeg");
 }
 
 .carta:nth-child(3){
@@ -160,8 +160,12 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/python.jpg");
+    ,url("media/python.jpeg");
 
+}
+
+#caracteristicas {
+    background-color:#9B9BE8;
 }
 
 #caracteristicas .container{
@@ -180,7 +184,7 @@ header a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(30,30,30);
+    background-color: #0A306A;
     color: white;
     height: 80vh;
 }
@@ -257,11 +261,7 @@ footer .container{
     }
 
     #somos-proya .img-container {
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        ), url("media/somos-proya.jpg");
+        background-image: url("media/somos-proya.png");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -297,7 +297,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/front-end-cropped.jpg");
+        ,url("media/front-end-cropped.jpeg");
     
     }
     
@@ -307,7 +307,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/full-stack-cropped.jpg");
+        ,url("media/full-stack-cropped.jpeg");
     }
     
     .carta:nth-child(3){
@@ -316,13 +316,14 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/python-cropped.jpg");
+        ,url("media/python-cropped.jpeg");
     }
 
     #caracteristicas{
-        background-image: url("media/background-2.jpeg");
+        background-image: url("media/background-2.png");
+        background-color: #9B9BE8;
         background-repeat: no-repeat;
-        background-size: 500px 400px;
+        background-size: 500px 323.5px;
         background-position: calc(100vw - 500px) 120px;
     }
 
@@ -335,13 +336,9 @@ footer .container{
     }
 
     #final {
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("media/hero.jpg");
+        background-color: #0A306A;
     }
+
     }
 
     #final h2 {
