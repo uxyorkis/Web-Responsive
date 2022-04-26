@@ -1,3 +1,7 @@
+![hero](https://user-images.githubusercontent.com/92123986/165383373-c46264df-bc10-4f50-a89b-e3547e236a87.jpeg)
+
+
+
 # Programa Ya!
 
 Es un proyecto de ocio sobre Web responsive de venta de cursos online de programación.
